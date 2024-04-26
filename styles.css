@@ -1,0 +1,39 @@
+html,
+body {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(bisque, rgb(230, 164, 85))
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.card-image {
+    object-fit: cover;
+
+}
+
+.homeimage {
+    height: 275px;
+
+}
+
+.home-card-body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn {
+    align-self: center;
+    margin-top: auto;
+
+}
+
+.card-text {
+    font-size: 18px;
+    text-align: justify;
+}
